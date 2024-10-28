@@ -3,7 +3,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/weepay-nodejs.svg)](https://www.npmjs.com/package/weepay-nodejs)
 
-You can sign up or sign in for an weepay account at [https://weepay.co](https://weepay.co "https://weepay.co")
+You can sign up or sign in for an weepay account at [https://weepay.co](https://weepay.co)
 ### Requirements
 - Node.js v12.0.0 or later
 
@@ -22,7 +22,7 @@ const  weepay = require('weepay-nodejs');
 
 - Create config options, with parameters (bayiId, apiKey, secretKey).
 
-```javascript 
+```javascript
 weepay.configure({
     bayiId: "bayi-id",
     apiKey: "apiKey",
@@ -107,10 +107,10 @@ weepay.createPayment(request).then(function (res) {
 
 [PaymentFormCreateRequest ](https://github.com/weepay/weepay-nodejs/blob/main/samples/CreatePayment/CreatePaymentForm.js)
 
-[PaymentRequest3Ds](https://github.com/weepay/weepay-nodejs/blob/main/samples/CreatePayment/CreatePaymentThreeD.js")
+[PaymentRequest3Ds](https://github.com/weepay/weepay-nodejs/blob/main/samples/CreatePayment/CreatePaymentThreeD.js)
 
-[PaymentRequest](https://github.com/weepay/weepay-nodejs/blob/main/samples/CreatePayment/CreatePayment.js")
+[PaymentRequest](https://github.com/weepay/weepay-nodejs/blob/main/samples/CreatePayment/CreatePayment.js)
 
-[PaymetDetail](https://github.com/weepay/weepay-nodejs/blob/main/samples/GetPayment/PaymentDetail.js")
+[PaymetDetail](https://github.com/weepay/weepay-nodejs/blob/main/samples/GetPayment/PaymentDetail.js)
 
 If you have any questions, please don't hesitate to contact us via Github with open an issue or contact us at destek@weepay.co.
